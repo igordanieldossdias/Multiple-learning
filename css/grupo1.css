@@ -45,7 +45,9 @@ header {
     top: 0;
     z-index: 999;
 }
-
+#logomultiple {
+        margin-left: 450px;
+}
 a {
     text-decoration: none;
     align-items: center;
@@ -74,7 +76,6 @@ h1 {
     font-family: poppins;
     font-weight: 700;
 }
-
 .sub{
     text-align: center;
     font-size: 32px;
@@ -90,8 +91,8 @@ footer{
     background-color: var(--red);
     width: 100%;
     height: 25%;
-    bottom: 0;
-    z-index: 999;
+    margin-top: 30%;
+
 }
 /* AQUI COMEÇA OS STYLES DAS CLASSES E IDS */
 .container {
@@ -156,3 +157,20 @@ footer{
     justify-content: center;
     text-align: center;
 }
+
+h2 {
+    color: var(--black);
+    font-weight: bold;
+    font-family: poppins;
+}
+
+p {
+    color: var(--black);
+    font-family: poppins;
+}
+
+h4 {
+    color: var(--black); 
+    font-family: poppins;
+}
+ 
