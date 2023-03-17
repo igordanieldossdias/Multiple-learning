@@ -45,7 +45,10 @@ header {
     top: 0;
     z-index: 999;
 }
-
+#logomultiple {
+        margin-left: 450px;
+        text-align: center;
+}
 a {
     text-decoration: none;
     align-items: center;
@@ -155,8 +158,3 @@ footer{
     justify-content: center;
     text-align: center;
 }
-
-.iframe {
-    align-items: center;
-}
-
