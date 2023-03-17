@@ -156,7 +156,17 @@ footer{
     text-align: center;
 }
 
-.iframe {
-    align-items: center;
+h4 {
+    font-family: poppins;
+    color: var(--black);
 }
 
+h2 {
+    font-family: poppins;
+    color: var(--black);
+}
+
+p {
+    font-family: poppins;
+    color: var(--black);
+}
