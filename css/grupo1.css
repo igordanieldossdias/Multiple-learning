@@ -45,7 +45,9 @@ header {
     top: 0;
     z-index: 999;
 }
-
+#logomultiple {
+        margin-left: 450px;
+}
 a {
     text-decoration: none;
     align-items: center;
@@ -154,20 +156,4 @@ footer{
     align-items: center;
     justify-content: center;
     text-align: center;
-}
-
-h4 {
-    font-family: poppins;
-    color: var(--black);
-}
-
-h2 {
-    font-family: poppins;
-    color: var(--black);
-    font-weight: 500;
-}
-
-p {
-    font-family: poppins;
-    color: var(--black);
 }
