@@ -164,6 +164,7 @@ h4 {
 h2 {
     font-family: poppins;
     color: var(--black);
+    font-weight: 500;
 }
 
 p {
