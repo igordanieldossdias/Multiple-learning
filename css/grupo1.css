@@ -177,3 +177,14 @@ h4 {
 .logomultiple{
     margin-right: 2%;
 }
+button{
+    background-color: var(--orangeDark);
+    color: var(--white);
+    font-family: poppins;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 400px; 
+    font-size: 26px;
+    margin-left: 400px;
+ }
