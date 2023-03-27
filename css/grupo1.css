@@ -174,10 +174,14 @@ h4 {
     color: var(--black); 
     font-family: poppins;
 }
+
  
-.logomultiple{
-    margin-right: 2%;
+#logomultiple{
+    display: flex;
+    margin: auto;
+    width: 500px;
 }
+
 button{
     background-color: var(--orangeDark);
     color: var(--white);
