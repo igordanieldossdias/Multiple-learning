@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Turmas dos Cursos Técnicos de 2023">
-    <meta name="keywords"gggg
+    <meta name="keywords" gggg
         content="SESI,SENAI,Caçapava-SP,Escola,DEV,Multimídia,Desenvolvimento de Sistemas,Novo Ensino Médio,Multiple Learning">
     <meta name="description"
         content="Portal educacional desenvolvido pelos alunos dos cursos Técnico de Desenvolvimento de Sistemas e Multimídia do SESI-SENAI de Caçapava">
@@ -23,7 +23,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <nav class="navbar">
             <a class="navbar-logo" href="index.html">
                 <img src="img/LogoSesiSenai.png" alt="Logo Sesi Senai" description="Logo do Sesi e do Senai">
@@ -53,58 +53,65 @@
     <main>
         <div class="image">
             <a href="index.html">
-               <img id="logomultiple" src="img/Logo_Multiple-Learning.png" >
+                <img id="logomultiple" src="img/Logo_Multiple-Learning.png">
             </a>
-        <h1>História da Literatura </h1>
-        </div>  
+            <h1 id="altera-titulo">História da Literatura </h1>
+        </div>
         <p class="sub"> Romantismo e Modernismo </p>
         <br> <br>
         <div class="content">
-            <div>
-                <h2 class="h2"> Romantismo</h2> 
+            <div class="ResRomantismo">
+                <h2 class="h2"> Romantismo</h2>
                 <p>O Romantismo foi um movimento cultural que representou a ascensão dos valores da
-                   burguesia no final do século XVIII e durante parte do século XIX.</p>
-                   <iframe style="margin-left: 27%"; width="560" height="315" src="https://www.youtube.com/embed/pyLa65OdM6A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                   <br> <br>
+                    burguesia no final do século XVIII e durante parte do século XIX.</p>
+                <div class="videoR">
+                    <iframe style="margin-left: 27%" ; width="560" height="315"
+                        src="https://www.youtube.com/embed/pyLa65OdM6A" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div><br> <br>
 
-                   <br><br>
-             </div>
-             <button onclick="revisar()">Revise aqui!</button>
-                   <div>
-                    
-                    </div>
-    
-                <br><br><br>
+                <br><br>
+                <div class="button">
+                    <button onclick="revisar()">Revise aqui!</button>
+                </div>
+            </div>
+
+
+            <br><br><br>
+            <div class="ResModernismo">
                 <h2 class="h2">Modernismo</h2>
-                <p> O modernismo é um estilo de época surgido no início do século XX, em um contexto de tensão política entre as grandes potências
-                     europeias, o que levou a duas guerras mundiais. Nesse período, ocorreram também descobertas e inovações tecnocientíficas 
-                     que passaram a caracterizar a vida moderna </p>
-                     <br>
-
-                     
-        <div class="videos">
-            <div>
-
-            </div>
-        </div>
-        <div class="Resumo">
-            <div>
-
+                <p> O modernismo é um estilo de época surgido no início do século XX, em um contexto de tensão política
+                    entre as grandes potências
+                    europeias, o que levou a duas guerras mundiais. Nesse período, ocorreram também descobertas e
+                    inovações tecnocientíficas
+                    que passaram a caracterizar a vida moderna </p>
+                <br>
             </div>
 
-        <div class= "interatividade">
-            <div>
+            <div class="videos">
+                <div>
 
+                </div>
             </div>
-        </div>
-        <div class="Questões">
-            <div>
+            <div class="Resumo">
+                <div>
 
-            </div>
-        </div>
+                </div>
+
+                <div class="interatividade">
+                    <div>
+
+                    </div>
+                </div>
+                <div class="Questões">
+                    <div>
+
+                    </div>
+                </div>
     </main>
 
-    <footer>
+    <footer class="footer">
         <div class="footer-icons">
             <a class="items-social-media" href="#">
                 <i class="fab fa-facebook-f"></i>
