@@ -211,15 +211,25 @@ button {
     
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 700px) {
 
     #logomultiple{
         display: flex;
         width: 50%;
     }
+
+    iframe{
+        width: 50%;
+        height: 350px;
+    }
+
+    .navbar-items-menu {
+        font-size: 100%;
+    }
+    
 }
 
-@media(max-width: 769px) and (max-width:1024px) {
+@media screen and (max-width:500px) {
 
 
     .vdeos{
@@ -248,6 +258,9 @@ button {
 
     
         
+    }
+    iframe {
+        height: 100%;
     }
   }
 
