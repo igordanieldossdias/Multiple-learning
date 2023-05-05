@@ -13,3 +13,7 @@ function realismo(){
     alert("Redirecionando para o quiz...");
     window.location.href= "https://wordwall.net/pt/embed/432f66c01c08444b9fbdbb4b178e5131?themeId=1&templateId=5&fontStackId=12"
 }
+
+function homepg(){
+    window.location.href= "index.html"
+}
