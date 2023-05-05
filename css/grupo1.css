@@ -20,13 +20,6 @@
     scroll-behavior: smooth !important;
 }
 
-
-
-html {
-    width: 100%;
-    height: 100%;
-}
-
 body {
     margin: 0;
     font-size: 100%;
@@ -192,7 +185,7 @@ h4 {
 #logomultiple {
     display: flex;
     margin: auto;
-    width: 500px;
+    width: 85%;
 }
 
 button {
@@ -211,6 +204,19 @@ button {
 .button{
     display: flex;
     justify-content: center;
+}
+
+.videoconteiner {
+
+    
+}
+
+@media screen and (min-width: 601px) {
+
+    #logomultiple{
+        display: flex;
+        width: 50%;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -239,8 +245,8 @@ button {
 
     #logomultiple{
         display: flex;
-        margin-left: auto;
-        margin-right: auto;
+
+    
         
     }
   }
@@ -249,4 +255,22 @@ button {
 
     margin-bottom: 50%;
     margin-top: 50%;
+  }
+
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .video-container iframe,
+  .video-container object,
+  .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
