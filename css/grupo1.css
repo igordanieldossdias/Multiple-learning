@@ -219,7 +219,7 @@ button {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media(max-width: 769px) and (max-width:1024px) {
 
 
     .vdeos{
