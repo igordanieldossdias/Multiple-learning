@@ -23,28 +23,38 @@
 </head>
 
 <body>
-    <header class="header">
-        <nav class="navbar">
-            <a class="navbar-logo" href="index.html">
-                <img src="img/LogoSesiSenai.png" alt="Logo Sesi Senai" description="Logo do Sesi e do Senai" style="margin-bottom: 15px;">
-            </a>
-            <div class="navbar-menu">
-                <ul class="navbar-items">
-                    <li class="navbar-items-menu">
-                        <a class="nav-link" href="index.html" onclick="">Home</a>
-                    </li>
-                    <li class="navbar-items-menu">
-                        <a class="nav-link" href="#videos">Romantismo</a>
-                    </li>
-                    <li class="navbar-items-menu">
-                        <a class="nav-link" href="#Resumo">Modernismo</a>
-                    </li>
-                    <li class="navbar-items-menu">
-                        <a class="nav-link" href="#iframe">Realismo</a>
-                    </li>
-                </ul>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!-- Container wrapper -->
+            <div class="container-fluid">
+                <!-- Navbar brand -->
+                <a class="navbar-logo" href="index.html">
+                    <img src="img/LogoSesiSenai.png" alt="Logo Sesi Senai" description="Logo do Sesi e do Senai">
+                </a>
+
+                <!-- Toggle button -->
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" href="#videos">Vídeos</a>
+                        <a class="nav-link" href="#podcasts">Podcasts</a>
+                        <a class="nav-link" href="#interatividade">Interatividade</a>
+                        <a class="nav-link" href="#compartilhar">Compartilhar</a>
+                    </div>
+                </div>
+                <!-- Collapsible wrapper -->
             </div>
+            <!-- Container wrapper -->
         </nav>
+        <!-- Navbar -->
     </header>
 
     <main>
@@ -130,7 +140,7 @@
                         </div>
     </main>
 
-    <footer class="footer">
+    <footer>
         <div class="footer-icons">
             <a class="items-social-media" href="#">
                 <i class="fab fa-facebook-f"></i>
@@ -146,13 +156,12 @@
             </a>
             <a class="items-social-media" href="#">
                 <i class="fab fa-youtube"></i>
-
             </a>
         </div>
         <div class="footer-link">
             <strong>Escola SESI-SP de Caçapava - Pq. Residencial Maria Elmira (CE 207)</strong>
-            <h6>Av. Monsenhor Theodomiro Lobo, 100 - Pq. Residencial Maria Elmira</h6>
-            <h6>(12) 3653-1943</h6>
+            <p>Av. Monsenhor Theodomiro Lobo, 100 - Pq. Residencial Maria Elmira</p>
+            <p>(12) 3653-1943</p>
         </div>
     </footer>
 </body>
