@@ -99,6 +99,7 @@ footer{
 
 footer p {
     text-align: center;
+    font-weight: bold;
 }
 
 /* AQUI COMEÇA OS STYLES DAS CLASSES E IDS */
@@ -207,10 +208,7 @@ button {
     justify-content: center;
 }
 
-.videoconteiner {
 
-    
-}
 
 @media screen and (min-width: 700px) {
 
