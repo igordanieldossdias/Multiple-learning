@@ -87,13 +87,13 @@ h1 {
 
 .videos{
     text-align: center;
+    justify-content: center;
 }
 
 footer{
     background-color: var(--red);
     width: 100%;
     bottom:0;
-    margin: auto auto;
     padding: 10px 5px;
 
 }
@@ -232,7 +232,7 @@ button {
 @media screen and (max-width:500px) {
 
 
-    .vdeos{
+    .videos{
         padding: 10%;
         display: flex;
         justify-content: start;
