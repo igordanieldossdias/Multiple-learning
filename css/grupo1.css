@@ -226,6 +226,11 @@ button {
     .navbar-items-menu {
         font-size: 100%;
     }
+
+    footer{
+        background-color: var(--red);
+        width: 100%;
+        bottom:0;
     
 }
 
